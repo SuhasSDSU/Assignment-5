@@ -1,0 +1,15 @@
+@mixin largeScreenMediaQuery {
+    @media (max-width: 968px) {
+        @content;
+    }
+}
+@mixin mediumScreenMediaQuery {
+    @media (max-width: 750px) {
+        @content;
+    } 
+}
+@mixin smallScreenMediaQuery {
+    @media (max-width: 450px) {
+        @content;
+    }      
+}
